@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            margin: auto;
+
+        }
+
+        nav {
+            display: inline-block;
+            box-shadow: 2px;
+            height: 4rem;
+            padding-top: 20px;
+            padding: 15px;
+            width: inherit;
+
+
+        }
+
+        .menuebar {
+            display: inline;
+            margin-left: 2rem;
+
+
+        }
+
+        .menuebar>h2 {
+            display: inline-block;
+        }
+
+        .menuebar>span {
+            margin-left: 7px;
+        }
+
+        .buttonbar {
+            float: right;
+            display: inline;
+            /* margin-left: 8rem;     */
+            margin-right: 2rem;
+            padding-top: 15px;
+        }
+
+        .btn1,
+        .btn2 {
+            width: 5rem;
+            height: 2.5rem;
+            font-size: 15px;
+            background: white;
+            border-radius: 20px;
+            font-family: sans-serif;
+        }
+
+        .btn2 {
+            margin-left: 10px;
+            margin-right: 30px;
+            width: 7rem;
+            background: black;
+            color: white;
+
+        }
+
+        .img1 {
+            float: right;
+            cursor: pointer;
+            margin-right: 20px;
+
+        }
+
+        .section1 {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 27px;
+            font-family: sans-serif;
+        }
+
+        .section1>h1 {
+            margin: 0;
+        }
+
+        .email-input {
+            display: inline;
+            width: 26rem;
+            height: 3rem;
+            border-radius: 40px;
+            font-size: 23px;
+        }
+
+        .btn3 {
+            display: inline;
+            padding: 4px 0;
+            width: 8rem;
+            height: 3rem;
+            font-size: 23px;
+            background: black;
+            color: white;
+            border-radius: 40px;
+            font-family: sans-serif;
+
+        }
+
+        .section2 {
+            display: flex;
+            margin-left: 0px;
+            margin-right: 56px;
+        }
+
+        .heading1 {
+            display: inline;
+            margin-left: 6rem;
+
+        }
+
+        .heading2 {
+            display: inline;
+            margin-left: 53rem;
+            margin-right: 5px;
+            margin-top: 1rem;
+            margin-bottom: -1rem;
+
+        }
+
+        .section3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+
+        .a1 {
+            border: 1px solid white;
+            width: 196px;
+            height: 222px;
+            border-radius: 15px;
+            padding: 2rem;
+            font-family: sans-serif;
+            background-color: rgb(12, 161, 92);
+        }
+
+        .a1>h1 {
+            font-size: 18px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        .a1>p {
+            font-size: 10px;
+            margin: 2px;
+        }
+
+        .button-card {
+            margin-top: 1rem;
+            margin-bottom: -1rem;
+            display: flex;
+
+        }
+
+        .button-card>h1 {
+            font-size: 35px;
+            margin-top: 0;
+        }
+
+        .arrow1 {
+            display: inline;
+            margin-left: 73px;
+            width: 30px;
+            height: 30px;
+            margin-top: 4px;
+        }
+        .a2 .arrow1{
+            background-color: #fff;
+            border-radius: 12px;
+        }
+
+        .a2 {
+            background-color: rgb(39, 35, 35);
+            color: white;
+        }
+
+        .a3 {
+            background-color: rgb(177, 107, 177);
+        }
+
+        .a4 {
+            background-color: rgb(241, 234, 47);
+        }
+
+        article>hr {
+            background-color: gray;
+        }
+
+        footer {
+            padding: 12px;
+            margin: 0px 72px 0px 72px;
+        }
+
+        footer>p {
+            display: inline;
+            margin-top: 1px;
+            font-size: 23px;
+            margin-left: 19px;
+        }
+
+        footer>img {
+            padding: 11px 17px;
+            display: inline;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top: 1rem;
+            margin-left: 52rem;
+            margin-right: 2rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="menuebar">
+                <h2>Lyf_)</h2> <span> <b>/ insurance@tiropay.au </b></span>
+            </div>
+            <div class="buttonbar">
+                <button class="btn1"> <b> Log In</b></button>
+                <button class="btn2"> <b>Get Started </b> </button>
+                <div class="img1">
+                    <img src="https://th.bing.com/th/id/OIP.svBJWBQ6AfxCvUmZgkOj5AHaHa?pid=ImgDet&rs=1" width="30px"
+                        height="40rem" alt="Menu_Icon">
+                </div>
+            </div>
+        </nav>
+
+        <div class="section1">
+            <h1>Life Planning, Making</h1>
+            <h1>Easy to Turn Dreams a Reality.</h1>
+            <p>Get Exclusive offers on purchase of any plans</p>
+
+            <form method="post">
+                <input class="email-input" type="text" placeholder=" ▶ Your Email">
+                <button class="btn3">Sign Up</button>
+            </form>
+        </div>
+        <section class="section2">
+            <div class="heading1">
+                <h1>Featured Plans</h1>
+            </div>
+            <div class="heading2">
+                <h3>Explore All</h3>
+            </div>
+        </section>
+        <section class="section3">
+            <article class="a1">
+                <span>STRATEGY</span>
+                <h1>Money Momentum</h1>
+                <p>Tract Premium helps you start saver </p>
+                <p>investments insights covering</p>
+                <br>
+                <hr>
+                <br>
+                <span>3 yrs CAGR</span>
+                <div class="button-card">
+                    <h1>7.20%</h1>
+                    <img class="arrow1" src="arrow-right.png">
+                </div>
+            </article>
+            <article class="a1 a2">
+                <span>PLANS</span>
+                <h1>Long-Term</h1>
+                <p>Create a vision,To get started,</p>
+                <p> imagine your dream life</p>
+                <br>
+                <hr>
+                <br>
+                <span>25 yrs CAGR</span>
+                <div class="button-card">
+                    <h1>14.20%</h1>
+                    <img class="arrow1" src="arrow-right.png">
+                </div>
+            </article>
+            <article class="a1 a3">
+                <span>STRATEGY</span>
+                <h1>Focussed</h1>
+                <p>Be focused Life planning, however,</p>
+                <p>can serve as a roadmap or guide.</p>
+                <br>
+                <hr>
+                <br>
+                <span>1 yr returns</span>
+                <div class="button-card">
+                    <h1>11.20%</h1>
+                    <img class="arrow1" src="arrow-right.png">
+                </div>
+            </article>
+            <article class="a1 a4">
+                <span>PLANS</span>
+                <h1>Fixed Income</h1>
+                <p>Get multiple benefits, and lumpsum </p>
+                <p>option & Guaranteed Returns</p>
+                <br>
+                <hr>
+                <br>
+                <span>5 yrs CAGR</span>
+                <div class="button-card">
+                    <h1>8.20%</h1>
+                    <img class="arrow1" src="arrow-right.png">
+                </div>
+            </article>
+        </section>
+        <br>
+        <hr style="width:69rem;">
+        <footer class="button-card">
+
+            <p>Terms Policy</p>
+            <p style="font-size: 40px;">.</p>
+            <p>Customer Story</p>
+
+            <img src="right-arrow.png" width="50" height="20">
+        </footer>
+    </div>
+</body>
+
+</html>
